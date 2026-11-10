@@ -1,0 +1,4 @@
+Opcional: ícones das ferramentas (PNG quadrado).
+after-effects.png, premiere-pro.png, capcut.png, claude.png, chatgpt.png
+Sem o arquivo, o site mostra a sigla.
+Pode apagar este arquivo.

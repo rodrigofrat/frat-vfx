@@ -1,0 +1,3 @@
+Fotos de bastidores. Ex.: bastidor-01.jpg, bastidor-03.jpg
+Cadastre cada foto na lista "outros" do config.js.
+Pode apagar este arquivo.

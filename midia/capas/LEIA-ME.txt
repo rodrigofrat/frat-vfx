@@ -1,0 +1,6 @@
+Capas (JPG ou PNG). Nomes esperados pelo config.js:
+motion.jpg, eu.jpg, reels.jpg, outros.jpg  -> 4 cards da abertura
+reel-capa.jpg                              -> capa do player do reel
+motion-01.jpg ... / short-01.jpg ...        -> capas das galerias
+bastidor-02.jpg ...                        -> capas dos vídeos de bastidores
+Pode apagar este arquivo.

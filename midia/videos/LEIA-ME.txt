@@ -1,0 +1,3 @@
+Vídeos MP4 (H.264). Ex.: reel-frat.mp4, motion-01.mp4, short-01.mp4, bastidor-02.mp4
+Vídeos grandes? Prefira um link do YouTube no config.js.
+Pode apagar este arquivo.

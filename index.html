@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FRAT.VFX — Rodrigo Melo · Portfólio</title>
+<meta name="description" content="Portfólio de Rodrigo Melo (Frat), fundador da FRAT.VFX — edição de vídeo, motion design e captação.">
+<link rel="icon" href="midia/logo/frat-vfx-preto.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Archivo:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilo.css">
+<script src="config.js"></script>
+<script src="js/app.js" defer></script>
+</head>
+<body>
+<a class="pular" href="#sobre">Pular para o conteúdo</a>
+
+<!-- Logo pequena de canto: aparece depois da abertura -->
+<a class="logo-canto" href="#topo" aria-label="FRAT.VFX — voltar ao topo" tabindex="-1">
+  <img class="logo-canto__preto" src="midia/logo/frat-vfx-preto.png" alt="">
+  <img class="logo-canto__branco" src="midia/logo/frat-vfx-branco.png" alt="">
+</a>
+
+<header class="abertura" id="topo" data-tema="claro">
+  <div class="abertura__topo">
+    <p class="assinatura">Rodrigo Melo<span>Frat · desde 2014</span></p>
+    <a class="logo" href="#topo" aria-label="FRAT.VFX — voltar ao topo">
+      <img src="midia/logo/frat-vfx-preto.png" alt="FRAT.VFX">
+    </a>
+  </div>
+
+  <p class="abertura__sub"><span>Edição de vídeo &amp; motion design</span></p>
+
+  <h1 class="titulo-3d" aria-label="Portfólio">
+    <span class="l l--cheia" aria-hidden="true">P</span><span class="l l--vazada" aria-hidden="true">O</span><span class="l l--cheia" aria-hidden="true">R</span><span class="l l--vazada" aria-hidden="true">T</span><span class="l l--cheia" aria-hidden="true">F</span><span class="l l--vazada" aria-hidden="true">Ó</span><span class="l l--cheia" aria-hidden="true">L</span><span class="l l--vazada" aria-hidden="true">I</span><span class="l l--cheia" aria-hidden="true">O</span>
+  </h1>
+
+  <nav class="cards" aria-label="Seções do portfólio">
+    <a class="card card--motion" href="#motion" style="--r:-8deg; --d:6.4s; --atraso:-1.2s">
+      <span class="card__sway"><span class="card__corpo">
+        <span class="card__capa" data-capa="motion">
+          <span class="canto canto--a"></span><span class="canto canto--b"></span><span class="canto canto--c"></span><span class="canto canto--d"></span>
+          <span class="timecode">00:00:12:08</span>
+        </span>
+        <span class="card__rotulo"><span>Motion</span><small>02</small></span>
+      </span></span>
+    </a>
+    <a class="card card--eu" href="#sobre" style="--r:3deg; --d:7.2s; --atraso:-3s">
+      <span class="card__sway"><span class="card__corpo">
+        <span class="papel-amarelo"></span>
+        <span class="card__capa" data-capa="eu"></span>
+        <span class="card__rotulo"><span class="marca-amarela">Eu</span><small>01</small></span>
+      </span></span>
+    </a>
+    <a class="card card--reels" href="#reels" style="--r:-4deg; --d:5.8s; --atraso:-2.1s">
+      <span class="card__sway"><span class="card__corpo">
+        <span class="card__capa" data-capa="reels">
+          <span class="formato">9:16</span>
+          <span class="progresso"><span></span></span>
+        </span>
+        <span class="card__rotulo"><span>Reels &amp; Shorts</span><small>03</small></span>
+      </span></span>
+    </a>
+    <a class="card card--outros" href="#outros" style="--r:8deg; --d:6.9s; --atraso:-.4s">
+      <span class="card__sway"><span class="card__corpo">
+        <span class="card__capa" data-capa="outros">
+          <span class="claquete"></span>
+          <span class="rec">REC</span>
+        </span>
+        <span class="card__rotulo"><span>Outros</span><small>04</small></span>
+      </span></span>
+    </a>
+  </nav>
+</header>
+
+<main>
+  <section id="sobre" class="sobre" data-tema="escuro" aria-labelledby="sobre-titulo">
+    <div class="sobre__grade">
+      <div class="reel">
+        <div class="reel__quadro" id="reel-quadro">
+          <span class="capa capa--reel" data-capa-reel></span>
+          <button class="reel__play" type="button" id="reel-play">
+            <span class="icone-play" aria-hidden="true"></span>
+            <span>Assistir à apresentação</span>
+          </button>
+        </div>
+      </div>
+      <div class="sobre__texto">
+        <p class="sec-eyebrow"><span>01</span> Sobre mim</p>
+        <h2 id="sobre-titulo" class="sobre__nome">Rodrigo Melo <em>Frat</em></h2>
+        <p class="sobre__bio" id="sobre-bio">Sou Rodrigo Melo, também conhecido como Frat. Faço vídeo desde 2014 e fundei a FRAT.VFX. Trabalho com edição de vídeo, motion design e captação. Meu canal no YouTube chegou a 1,4 milhão de inscritos.</p>
+        <a class="link-discreto" href="#contato">Fale comigo <span aria-hidden="true">↓</span></a>
+      </div>
+    </div>
+    <div class="ferramentas">
+      <h3 class="ferramentas__titulo">Ferramentas que uso</h3>
+      <ul class="ferramentas__lista" id="lista-ferramentas"></ul>
+    </div>
+  </section>
+
+  <section id="motion" class="galeria" data-tema="claro" aria-labelledby="motion-titulo">
+    <header class="sec-cab">
+      <p class="sec-eyebrow"><span>02</span> Trabalhos completos</p>
+      <h2 class="sec-titulo" id="motion-titulo" data-alterna>Motion</h2>
+    </header>
+    <div class="grade-motion" id="lista-motion"></div>
+  </section>
+
+  <section id="reels" class="galeria galeria--escura" data-tema="escuro" aria-labelledby="reels-titulo">
+    <header class="sec-cab">
+      <p class="sec-eyebrow"><span>03</span> Vídeos curtos que editei</p>
+      <h2 class="sec-titulo" id="reels-titulo" data-alterna>Reels &amp; Shorts</h2>
+    </header>
+    <div class="grade-shorts" id="lista-shorts"></div>
+  </section>
+
+  <section id="outros" class="galeria" data-tema="claro" aria-labelledby="outros-titulo">
+    <header class="sec-cab">
+      <p class="sec-eyebrow"><span>04</span> Bastidores de gravação</p>
+      <h2 class="sec-titulo" id="outros-titulo" data-alterna>Outros</h2>
+    </header>
+    <div class="grade-outros" id="lista-outros"></div>
+  </section>
+
+  <section id="contato" class="contato" data-tema="amarelo" aria-labelledby="contato-titulo">
+    <p class="sec-eyebrow"><span>05</span> Contato</p>
+    <h2 class="contato__titulo" id="contato-titulo">Vamos fazer um vídeo?</h2>
+    <div class="contato__acoes">
+      <a class="contato__email" id="email-link" href="mailto:"></a>
+      <button class="botao" type="button" id="copiar-email">Copiar e-mail</button>
+      <span class="sr-only" aria-live="polite" id="copiar-status"></span>
+    </div>
+    <footer class="rodape">
+      <img src="midia/logo/frat-vfx-preto.png" alt="FRAT.VFX">
+      <span>Rodrigo Melo · Frat</span>
+    </footer>
+  </section>
+</main>
+
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+  <div class="modal__fundo" data-fechar></div>
+  <button class="modal__fechar" type="button" data-fechar>Fechar <span aria-hidden="true">✕</span></button>
+  <div class="modal__caixa">
+    <div class="modal__palco" id="modal-palco"></div>
+    <div class="modal__info">
+      <p class="modal__titulo" id="modal-titulo"></p>
+      <p class="modal__legenda" id="modal-legenda"></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
