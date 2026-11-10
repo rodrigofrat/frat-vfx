@@ -40,7 +40,7 @@ window.FRAT_CONFIG = {
   reel: {
     titulo: "Reel FRAT.VFX",
     capa: "midia/capas/reel-capa.jpg",
-    video: "midia/videos/reel-frat.mp4"
+    video: "midia/videos/web/reel-frat.mp4"
     // video: "https://www.youtube.com/watch?v=XXXXXXXXXXX"
   },
 
@@ -60,19 +60,19 @@ window.FRAT_CONFIG = {
   // Para adicionar um projeto, copie um bloco { ... }, cole no fim e edite.
   // "papel" é opcional — deixe "" para não mostrar descrição.
   motion: [
-    { titulo: "Projeto Motion 01", papel: "", capa: "midia/capas/motion-01.jpg", video: "midia/videos/motion-01.mp4" },
-    { titulo: "Projeto Motion 02", papel: "",capa: "midia/capas/motion-02.jpg", video: "midia/videos/motion-02.mp4" },
-    { titulo: "Projeto Motion 03", papel: "",                           capa: "midia/capas/motion-03.jpg", video: "midia/videos/motion-03.mp4" },
-    { titulo: "Projeto Motion 04", papel: "",capa: "midia/capas/motion-04.jpg", video: "midia/videos/motion-04.mp4" }
+    { titulo: "Projeto Motion 01", papel: "", capa: "midia/capas/motion-01.jpg", video: "midia/videos/web/motion-01.mp4" },
+    { titulo: "Projeto Motion 02", papel: "",capa: "midia/capas/motion-02.jpg", video: "midia/videos/web/motion-02.mp4" },
+    { titulo: "Projeto Motion 03", papel: "",                           capa: "midia/capas/motion-03.jpg", video: "midia/videos/web/motion-03.mp4" },
+    { titulo: "Projeto Motion 04", papel: "",capa: "midia/capas/motion-04.jpg", video: "midia/videos/web/motion-04.mp4" }
   ],
 
   // ---------- REELS & SHORTS (vídeos curtos, 9:16) ----------
   shorts: [
-    { titulo: "Short 01", capa: "midia/capas/FRAT_VFX_03_Azul_Klein.png", video: "midia/videos/short-01.mp4" },
-    { titulo: "Short 02", capa: "midia/capas/FRAT_VFX_01_Verde_Acido.png", video: "midia/videos/short-02.mp4" },
+    { titulo: "Short 01", capa: "midia/capas/FRAT_VFX_03_Azul_Klein.png", video: "midia/videos/web/short-01.mp4" },
+    { titulo: "Short 02", capa: "midia/capas/FRAT_VFX_01_Verde_Acido.png", video: "midia/videos/web/short-02.mp4" },
     { titulo: "Short 03", capa: "midia/capas/FRAT_VFX_04_Rosa_Chiclete.png", video: "midia/videos/short-03.mp4" },
     { titulo: "Short 04", capa: "midia/capas/FRAT_VFX_06_Roxo_Ultravioleta.png", video: "midia/videos/short-04.mp4" },
-    { titulo: "Short 05", capa: "midia/capas/FRAT_VFX_05_Laranja_Fluor.png", video: "midia/videos/short-05.mp4" }
+    { titulo: "Short 05", capa: "midia/capas/FRAT_VFX_05_Laranja_Fluor.png", video: "midia/videos/web/short-05.mp4" }
     // Exemplo com YouTube Shorts:
     // { titulo: "Short 06", capa: "midia/capas/short-06.jpg", video: "https://www.youtube.com/shorts/XXXXXXXXXXX" }
   ],
@@ -83,7 +83,7 @@ window.FRAT_CONFIG = {
   // Vídeo: { tipo: "video", video: "midia/videos/bastidor-08.mp4", capa: "midia/capas/bastidor-08.jpg", formato: "horizontal", legenda: "..." }
   outros: [
     { tipo: "foto",  arquivo: "midia/fotos/bastidor-01.jpg", formato: "vertical", legenda: "No set" },
-    { tipo: "video", video: "midia/videos/bastidor-02.mp4", capa: "midia/capas/bastidor-02.jpg", formato: "vertical", legenda: "Filmando com uma YouTuber fitness" },
+    { tipo: "video", video: "midia/videos/web/bastidor-02.mp4", capa: "midia/capas/bastidor-02.jpg", formato: "vertical", legenda: "Filmando com uma YouTuber fitness" },
     { tipo: "foto",  arquivo: "midia/fotos/bastidor-03.jpg", formato: "vertical",   legenda: "" }
   ]
 };
