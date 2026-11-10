@@ -236,7 +236,7 @@
   var palcoT = $('.titulo-3d');
   var letras = Array.prototype.slice.call(palcoT.querySelectorAll('.l'));
   var N = 900, pts, cum, L, larg, total, s0, escInf, W, H, ativo = false, visivel = true, raf = null;
-  var T_PARADO = 2.6, T_ENTRA = 1.5, T_FLUI = 7.5, T_SAI = 1.5, CICLO = T_PARADO + T_ENTRA + T_FLUI + T_SAI;
+  var T_PARADO = 2, T_ENTRA = 1.5, T_FLUI = 7.5, T_SAI = 1.5, CICLO = T_PARADO + T_ENTRA + T_FLUI + T_SAI;
 
   function medir() {
     palcoT.classList.remove('titulo-3d--ativo');
@@ -280,10 +280,10 @@
     raf = null;
     if (inicio === null) inicio = agora;
     var t = ((agora - inicio) / 1000) % CICLO, m, cab = s0;
-    if (t < T_PARADO) m = 0;
-    else if ((t -= T_PARADO) < T_ENTRA) m = suave(t / T_ENTRA);
+    if (t < T_ENTRA) m = suave(t / T_ENTRA);
     else if ((t -= T_ENTRA) < T_FLUI) { m = 1; cab = s0 + suave(t / T_FLUI) * L; }
-    else { t -= T_FLUI; m = 1 - suave(t / T_SAI); cab = s0 + L; }
+    else if ((t -= T_FLUI) < T_SAI) { m = 1 - suave(t / T_SAI); cab = s0 + L; }
+    else m = 0;
     desenhar(m, cab);
     if (visivel && !document.hidden && !reduzir.matches) raf = requestAnimationFrame(quadro);
   }
@@ -294,7 +294,8 @@
     if (!raf) raf = requestAnimationFrame(quadro);
   }
   function retomar() { if (ativo && !raf && visivel && !document.hidden) raf = requestAnimationFrame(quadro); }
-  (document.fonts && document.fonts.ready ? document.fonts.ready : Promise.resolve()).then(iniciar);
+  iniciar();
+  if (document.fonts && document.fonts.status === 'loading') document.fonts.ready.then(iniciar);
   var rt;
   window.addEventListener('resize', function () { clearTimeout(rt); rt = setTimeout(function () { if (raf) cancelAnimationFrame(raf); raf = null; iniciar(); }, 150); });
   document.addEventListener('visibilitychange', retomar);
