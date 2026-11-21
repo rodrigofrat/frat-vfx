@@ -7,7 +7,7 @@
   <text fill="#243e32" font-family="Arial,sans-serif" font-weight="900" font-size="79" letter-spacing="-4"><tspan x="35" y="215">OS TRÊS</tspan><tspan x="35" y="298">DOSHAS</tspan></text>
   <circle cx="270" cy="648" r="148" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="270" cy="501" r="58" fill="#c3b5d8"/><circle cx="143" cy="722" r="58" fill="#d5a29a"/><circle cx="397" cy="722" r="58" fill="#b1c7a0"/><path d="M230 503Q270 473 310 503M230 517Q270 487 310 517M143 685Q103 724 143 751Q183 724 143 685M366 720H428M366 735H428M377 703H417" fill="none" stroke="currentColor" stroke-width="3"/><path d="M243 657Q270 605 297 657Q270 694 243 657" fill="none" stroke="currentColor" stroke-width="3"/>
   <path d="M35 863H505" stroke="#243e32" stroke-width="1.5"/>
-  <text x="35" y="901" fill="#243e32" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">VATA / PITTA / KAPHA</text>
-  <text x="35" y="939" fill="#243e32" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">FRAT.VFX</text>
+  <text x="115" y="901" fill="#243e32" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">VATA / PITTA / KAPHA</text>
+  <text x="115" y="939" fill="#243e32" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">FRAT.VFX</text>
   <text x="505" y="939" text-anchor="end" fill="#243e32" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">MOTION DESIGN</text>
   </svg>

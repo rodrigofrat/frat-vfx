@@ -7,7 +7,7 @@
   <text fill="#f8f6ff" font-family="Arial,sans-serif" font-weight="900" font-size="69" letter-spacing="-4"><tspan x="35" y="215">LUZ.</tspan><tspan x="35" y="288">CÂMERA.</tspan><tspan x="35" y="361">LIVE.</tspan></text>
   <ellipse cx="271" cy="650" rx="132" ry="124" fill="#c0b0ff" opacity=".13"/><circle cx="271" cy="630" r="105" fill="none" stroke="#e990d3" stroke-width="27"/><circle cx="271" cy="630" r="72" fill="none" stroke="#fff5ff" stroke-width="2"/><path d="M271 749V812M221 812H321M431 540 467 515M439 628H484M423 710 462 735M114 530 76 505M103 625H58" fill="none" stroke="#c0b0ff" stroke-width="6"/><rect x="243" y="580" width="56" height="100" rx="10" fill="#c0b0ff"/><circle cx="271" cy="595" r="5" fill="#10101d"/>
   <path d="M35 863H505" stroke="#f8f6ff" stroke-width="1.5"/>
-  <text x="35" y="901" fill="#f8f6ff" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">ILUMINAÇÃO / EDUCATIVO</text>
-  <text x="35" y="939" fill="#f8f6ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">FRAT.VFX</text>
+  <text x="115" y="901" fill="#f8f6ff" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">ILUMINAÇÃO / EDUCATIVO</text>
+  <text x="115" y="939" fill="#f8f6ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">FRAT.VFX</text>
   <text x="505" y="939" text-anchor="end" fill="#f8f6ff" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">MOTION DESIGN</text>
   </svg>
