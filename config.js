@@ -56,14 +56,16 @@ window.FRAT_CONFIG = {
     ]
   },
 
-  // ---------- MOTION (trabalhos completos, 16:9) ----------
+  // ---------- MOTION (trabalhos completos, verticais) ----------
   // Para adicionar um projeto, copie um bloco { ... }, cole no fim e edite.
   // "papel" é opcional — deixe "" para não mostrar descrição.
   motion: [
-    { titulo: "Projeto Motion 01", papel: "", capa: "midia/capas/motion-01.jpg", video: "midia/videos/web/motion-01.mp4" },
-    { titulo: "Projeto Motion 02", papel: "",capa: "midia/capas/motion-02.jpg", video: "midia/videos/web/motion-02.mp4" },
-    { titulo: "Projeto Motion 03", papel: "",                           capa: "midia/capas/motion-03.jpg", video: "midia/videos/web/motion-03.mp4" },
-    { titulo: "Projeto Motion 04", papel: "",capa: "midia/capas/motion-04.jpg", video: "midia/videos/web/motion-04.mp4" }
+    { titulo: "Ayurveda — os três doshas", papel: "Animação 2D para uma médica, apresentando Vata, Pitta e Kapha em um conteúdo educativo sobre Ayurveda.", capa: "midia/capas/motion-01.svg", video: "midia/videos/web/motion-01.mp4" },
+    { titulo: "Aquecimento do LIVE Fest", papel: "Motion design para a Agência NP, explicando missões, pontuação e bônus do aquecimento do LIVE Fest.", capa: "midia/capas/motion-02.svg", video: "midia/videos/web/motion-02.mp4" },
+    { titulo: "Hall da Fama", papel: "Animação para a Agência NP, apresentando o Hall da Fama, seus critérios de participação e premiações para criadores.", capa: "midia/capas/motion-03.svg", video: "midia/videos/web/motion-03.mp4" },
+    { titulo: "Iluminação para lives", papel: "Motion educativo para a Agência NP, demonstrando luz principal, preenchimento, rebatedor e iluminação de cenário.", capa: "midia/capas/motion-04.svg", video: "midia/videos/web/motion-04.mp4" },
+    { titulo: "Superliga do LIVE Fest", papel: "Animação 2D para a Odoya, explicando as etapas da Superliga, a pontuação e os bônus da campanha do LIVE Fest.", capa: "midia/capas/motion-05.svg", video: "midia/videos/web/motion-05.mp4" },
+    { titulo: "Quando a cobrança não acaba", papel: "Motion 2D para Daiane Santos, com um conteúdo sobre autocobrança no dia a dia, responsabilidades e a dificuldade de reconhecer o próprio esforço.", capa: "midia/capas/motion-06.svg", video: "midia/videos/web/motion-06.mp4" }
   ],
 
   // ---------- REELS & SHORTS (vídeos curtos, 9:16) ----------
@@ -84,6 +86,6 @@ window.FRAT_CONFIG = {
   outros: [
     { tipo: "foto",  arquivo: "midia/fotos/bastidor-01.jpg", formato: "vertical", legenda: "No set" },
     { tipo: "video", video: "midia/videos/web/bastidor-02.mp4", capa: "midia/capas/bastidor-02.jpg", formato: "vertical", legenda: "Filmando com uma YouTuber fitness" },
-    { tipo: "foto",  arquivo: "midia/fotos/bastidor-03.jpg", formato: "vertical",   legenda: "" }
+    { tipo: "foto",  arquivo: "midia/fotos/bastidor-03.jpg", formato: "vertical", legenda: "Apresentação e entrevistas como host em um evento na sede do TikTok." }
   ]
 };
