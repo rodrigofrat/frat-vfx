@@ -60,12 +60,12 @@ window.FRAT_CONFIG = {
   // Para adicionar um projeto, copie um bloco { ... }, cole no fim e edite.
   // "papel" é opcional — deixe "" para não mostrar descrição.
   motion: [
-    { titulo: "Ayurveda — os três doshas", papel: "Animação 2D para uma médica, apresentando Vata, Pitta e Kapha em um conteúdo educativo sobre Ayurveda.", capa: "midia/capas/motion-01.svg", video: "midia/videos/web/motion-01.mp4" },
-    { titulo: "Aquecimento do LIVE Fest", papel: "Motion design para a Agência NP, explicando missões, pontuação e bônus do aquecimento do LIVE Fest.", capa: "midia/capas/motion-02.svg", video: "midia/videos/web/motion-02.mp4" },
-    { titulo: "Hall da Fama", papel: "Animação para a Agência NP, apresentando o Hall da Fama, seus critérios de participação e premiações para criadores.", capa: "midia/capas/motion-03.svg", video: "midia/videos/web/motion-03.mp4" },
-    { titulo: "Iluminação para lives", papel: "Motion educativo para a Agência NP, demonstrando luz principal, preenchimento, rebatedor e iluminação de cenário.", capa: "midia/capas/motion-04.svg", video: "midia/videos/web/motion-04.mp4" },
-    { titulo: "Superliga do LIVE Fest", papel: "Animação 2D para a Odoya, explicando as etapas da Superliga, a pontuação e os bônus da campanha do LIVE Fest.", capa: "midia/capas/motion-05.svg", video: "midia/videos/web/motion-05.mp4" },
-    { titulo: "Quando a cobrança não acaba", papel: "Motion 2D para Daiane Santos, com um conteúdo sobre autocobrança no dia a dia, responsabilidades e a dificuldade de reconhecer o próprio esforço.", capa: "midia/capas/motion-06.svg", video: "midia/videos/web/motion-06.mp4" }
+    { titulo: "Ayurveda — os três doshas", papel: "Animação 2D para uma médica, apresentando Vata, Pitta e Kapha em um conteúdo educativo sobre Ayurveda.", capa: "midia/capas/motion-01-editorial.svg", video: "midia/videos/web/motion-01.mp4" },
+    { titulo: "Aquecimento do LIVE Fest", papel: "Motion design para a Agência NP, explicando missões, pontuação e bônus do aquecimento do LIVE Fest.", capa: "midia/capas/motion-02-editorial.svg", video: "midia/videos/web/motion-02.mp4" },
+    { titulo: "Hall da Fama", papel: "Animação para a Agência NP, apresentando o Hall da Fama, seus critérios de participação e premiações para criadores.", capa: "midia/capas/motion-03-editorial.svg", video: "midia/videos/web/motion-03.mp4" },
+    { titulo: "Iluminação para lives", papel: "Motion educativo para a Agência NP, demonstrando luz principal, preenchimento, rebatedor e iluminação de cenário.", capa: "midia/capas/motion-04-editorial.svg", video: "midia/videos/web/motion-04.mp4" },
+    { titulo: "Superliga do LIVE Fest", papel: "Animação 2D para a Odoya, explicando as etapas da Superliga, a pontuação e os bônus da campanha do LIVE Fest.", capa: "midia/capas/motion-05-editorial.svg", video: "midia/videos/web/motion-05.mp4" },
+    { titulo: "Quando a cobrança não acaba", papel: "Motion 2D para Daiane Santos, com um conteúdo sobre autocobrança no dia a dia, responsabilidades e a dificuldade de reconhecer o próprio esforço.", capa: "midia/capas/motion-06-editorial.svg", video: "midia/videos/web/motion-06.mp4" }
   ],
 
   // ---------- REELS & SHORTS (vídeos curtos, 9:16) ----------

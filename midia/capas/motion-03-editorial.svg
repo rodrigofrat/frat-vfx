@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="960" viewBox="0 0 540 960" color="#fff5ff">
+  <defs><pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#fff5ff" opacity=".13"/></pattern></defs>
+  <rect width="540" height="960" fill="#31104f"/><rect width="540" height="960" fill="url(#dots)"/>
+  <path d="M35 42H505M35 102H505" stroke="#fff5ff" stroke-width="1.5"/>
+  <text x="35" y="81" fill="#fff5ff" font-family="Arial,sans-serif" font-size="30" font-weight="800" letter-spacing="1">AGÊNCIA NP</text>
+  <text x="505" y="79" text-anchor="end" fill="#fff5ff" font-family="Arial,sans-serif" font-size="17">03</text>
+  <text fill="#fff5ff" font-family="Arial,sans-serif" font-weight="900" font-size="79" letter-spacing="-4"><tspan x="35" y="215">HALL DA</tspan><tspan x="35" y="298">FAMA</tspan></text>
+  <path d="M95 568 176 475H364L445 568 270 773Z" fill="#bca0ff"/><path d="M95 568H445M176 475 215 568 270 773 325 568 364 475M215 568 270 475 325 568" fill="none" stroke="#31104f" stroke-width="4"/><path d="m438 423 9 27 28 9-28 9-9 27-9-27-28-9 28-9Z" fill="#f7d948"/><path d="m90 734 8 24 24 8-24 8-8 24-8-24-24-8 24-8Z" fill="#f7d948"/>
+  <path d="M35 863H505" stroke="#fff5ff" stroke-width="1.5"/>
+  <text x="35" y="901" fill="#fff5ff" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">CRIADORES / RECONHECIMENTO</text>
+  <text x="35" y="939" fill="#fff5ff" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">FRAT.VFX</text>
+  <text x="505" y="939" text-anchor="end" fill="#fff5ff" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">MOTION DESIGN</text>
+  </svg>

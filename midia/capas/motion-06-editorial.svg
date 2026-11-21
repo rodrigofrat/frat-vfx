@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="960" viewBox="0 0 540 960" color="#733c53">
+  <defs><pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#733c53" opacity=".13"/></pattern></defs>
+  <rect width="540" height="960" fill="#f0e4e7"/><rect width="540" height="960" fill="url(#dots)"/>
+  <path d="M35 42H505M35 102H505" stroke="#733c53" stroke-width="1.5"/>
+  <text x="35" y="81" fill="#733c53" font-family="Arial,sans-serif" font-size="25" font-weight="800" letter-spacing="1">DAIANE SANTOS</text>
+  <text x="505" y="79" text-anchor="end" fill="#733c53" font-family="Arial,sans-serif" font-size="17">06</text>
+  <text fill="#733c53" font-family="Arial,sans-serif" font-weight="900" font-size="79" letter-spacing="-4"><tspan x="35" y="215">JÁ FEZ</tspan><tspan x="35" y="298">MUITO.</tspan></text>
+  <g transform="rotate(-8 270 640)"><rect x="100" y="493" width="340" height="249" rx="28" fill="#b8cddd"/><path d="m148 742 5 54 67-54" fill="#b8cddd"/><circle cx="155" cy="553" r="17" fill="#733c53"/><path d="m147 553 7 7 12-15" fill="none" stroke="#f0e4e7" stroke-width="4"/><path d="M194 553H382M143 610H382M143 662H324" stroke="#733c53" stroke-width="9" stroke-linecap="round"/></g><path d="M80 803Q270 733 460 798" fill="none" stroke="#dfa9b8" stroke-width="20" stroke-linecap="round"/><path d="m403 432 8 24 24 8-24 8-8 24-8-24-24-8 24-8Z" fill="#733c53"/>
+  <path d="M35 863H505" stroke="#733c53" stroke-width="1.5"/>
+  <text x="35" y="901" fill="#733c53" font-family="Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="1">PSICOLOGIA / AUTOCOBRANÇA</text>
+  <text x="35" y="939" fill="#733c53" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">FRAT.VFX</text>
+  <text x="505" y="939" text-anchor="end" fill="#733c53" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">MOTION DESIGN</text>
+  </svg>
