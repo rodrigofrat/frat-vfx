@@ -72,11 +72,7 @@ window.FRAT_CONFIG = {
   shorts: [
     { titulo: "Short 01", capa: "midia/capas/FRAT_VFX_03_Azul_Klein.png", video: "midia/videos/web/short-01.mp4" },
     { titulo: "Short 02", capa: "midia/capas/FRAT_VFX_01_Verde_Acido.png", video: "midia/videos/web/short-02.mp4" },
-    { titulo: "Short 03", capa: "midia/capas/FRAT_VFX_04_Rosa_Chiclete.png", video: "midia/videos/short-03.mp4" },
-    { titulo: "Short 04", capa: "midia/capas/FRAT_VFX_06_Roxo_Ultravioleta.png", video: "midia/videos/short-04.mp4" },
-    { titulo: "Short 05", capa: "midia/capas/FRAT_VFX_05_Laranja_Fluor.png", video: "midia/videos/web/short-05.mp4" }
-    // Exemplo com YouTube Shorts:
-    // { titulo: "Short 06", capa: "midia/capas/short-06.jpg", video: "https://www.youtube.com/shorts/XXXXXXXXXXX" }
+    { titulo: "Short 03", capa: "midia/capas/FRAT_VFX_04_Rosa_Chiclete.png", video: "midia/videos/web/short-03-bonus-batalha.mp4" }
   ],
 
   // ---------- OUTROS — Bastidores de gravação ----------
